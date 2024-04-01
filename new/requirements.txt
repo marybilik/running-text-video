@@ -1,4 +1,4 @@
 django
-opencv
+opencv-python
 numpy
 os
