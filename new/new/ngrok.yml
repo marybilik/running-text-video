@@ -1,4 +1,4 @@
-authtoken: 2eVfybHCoSdcXJKug0ZeJupajyY_7kwW9eBBDALzfFn7bcacQ_ngrok
+authtoken: 2eVfybHCoSdcXJKug0ZeJupajyY_7kwW9eBBDALzfFn7bcacQ
 tunnels:
   django:
     addr: 8000
