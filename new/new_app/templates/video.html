@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +7,11 @@
 <body>
     <h1>Download the video with Running Text</h1>
     <br>
-    <a href="{% url 'download' %}" download>Download Video</a>
+    <form method="post" action="{% url 'download' %}">
+        {% csrf_token %}
+        <label for="text_input">Enter Text for Running Line:</label><br>
+        <input type="text" id="text_input" name="text"><br><br>
+        <button type="submit">Download Video</button>
+    </form>
 </body>
 </html>
